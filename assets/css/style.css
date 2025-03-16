@@ -1,0 +1,58 @@
+/* this is style page */
+/* import google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+/*  CSS variables */
+
+:root {
+   --primary-font: "Inter", sans-serif;
+   --secondary-font: "Maconda", cursive;
+   --primary-color: #3a2621;
+   --secondary-color: #aa9581;
+   --highlight-color: #41618e;
+   --lighthighlight-color: #7a9fc2;
+
+}
+body {
+font-family: var(--primary-font)
+
+}
+
+h1, h2, h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+.sub-heading-color{ 
+    color: var(--highlight-color);
+}
+
+/*  Navbar */
+#navbar {
+    background-color: var(--primary-color);
+
+}
+
+#navbar .logo {
+    width:30px;
+}
+
+/* Header Section */
+#header .lead {
+    font-family: var(--secondary-font);
+}
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+/* .container, row {
+    border: 2px solid black;
+}
+
+.col-12{
+    border: 2px solid white;
+    background-color: lightgray;
+} */
