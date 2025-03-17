@@ -99,8 +99,10 @@ h2 {
     transition: color 0.3s ease-in-out;
 
 }
-#table1 {
+#contact .table-dark *{
     color: white;
+    background-color: transparent;
+    
 }
 
 #contact .social-links i:hover{
